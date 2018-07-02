@@ -1,0 +1,25 @@
+{
+	"locations": [
+		{
+			"id": "1",
+			"image": "placeHolder",
+			"title": "placeHolder",
+			"city": "placeHolder",
+			"body": "placeHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolder"
+		},
+		{
+			"id": "2",
+			"image": "placeHolder",
+			"title": "placeHolder",
+			"city": "placeHolder",
+			"body": "placeHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolder"
+		},
+		{
+			"id": "3",
+			"image": "placeHolder",
+			"title": "placeHolder",
+			"city": "placeHolder",
+			"body": "placeHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolder"
+		}
+	]
+} 
