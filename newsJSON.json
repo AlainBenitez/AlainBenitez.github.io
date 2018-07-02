@@ -2,24 +2,24 @@
 	"locations": [
 		{
 			"id": "1",
-			"image": "https://images.unsplash.com/photo-1487252333087-c353573e2b7c",
+			"image": "https://unsplash.com/photos/8SgpKk65oVE",
 			"title": "Sunset Crusing",
 			"city": "Ceder Falls",
 			"body": "Riding longboard inbetween classes at the University of Northern Iowa"
 		},
 		{
 			"id": "2",
-			"image": "https://unsplash.com/photos/8SgpKk65oVE",
-			"title": "placeHolder",
-			"city": "placeHolder",
-			"body": "placeHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolder"
+			"image": "https://unsplash.com/photos/_tH3YCjPCCE",
+			"title": "Adventure",
+			"city": "Some Mountain",
+			"body": "Downhill racing with a group of friends"
 		},
 		{
 			"id": "3",
-			"image": "https://unsplash.com/photos/8SgpKk65oVE",
-			"title": "placeHolder",
-			"city": "placeHolder",
-			"body": "placeHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolderplaceHolder"
+			"image": "https://unsplash.com/photos/4oflWlbhE3c",
+			"title": "Simplicity",
+			"city": "Denmark",
+			"body": "Hobbies are a life style"
 		}
 	]
 } 
