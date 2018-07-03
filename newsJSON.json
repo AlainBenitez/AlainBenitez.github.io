@@ -5,20 +5,26 @@
 			"image": "https://unsplash.com/photos/8SgpKk65oVE",
 			"title": "Sunset Crusing",
 			"city": "Ceder Falls",
+			"state": "Iowa",
+			"time": "7:14 pm",
 			"body": "Riding longboard inbetween classes at the University of Northern Iowa"
 		},
 		{
 			"id": "2",
 			"image": "https://unsplash.com/photos/_tH3YCjPCCE",
 			"title": "Adventure",
-			"city": "Some Mountain",
+			"city": "Nashville",
+			"state": "Tennessee",
+			"time": "1:40 pm",
 			"body": "Downhill racing with a group of friends"
 		},
 		{
 			"id": "3",
 			"image": "https://unsplash.com/photos/4oflWlbhE3c",
 			"title": "Simplicity",
-			"city": "Denmark",
+			"city": "Los Angeles",
+			"state": "California",
+			"time": "6:22 pm",
 			"body": "Hobbies are a life style"
 		}
 	]
