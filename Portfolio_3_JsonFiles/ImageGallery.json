@@ -2,21 +2,33 @@
 	"locations": [
 		{
 			"id": "1",
-			"image": "https://images.unsplash.com/photo-1478905649902-b81c26ff1d25?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=dd736796bbbf2d5c62a8921b83b1602b",
-			"title": "Landyachtz SideWalker",
-			"body": "After over a year of designing and testing Vera’s Sidewalker is finally ready for the masses. Ultra light for tricks with enough features to keep your feet happy at high speeds. What more could you ask for?"
+			"image": "https://images.unsplash.com/photo-1466434319174-225dbccce7d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=88af5894218e8b4bb5fe3839b23636e0",
+			"title": "Black & White",
+			"body": "Right Shoes, right board"
 		},
 		{
 			"id": "2",
-			"image": "https://images.unsplash.com/photo-1477466535227-9f581b3eec21?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=18e6844702b8d86531d2f9148af37b35",
-			"title": "KnK Longboard Camp 2018",
-			"body": "Time flies and things change but for now, KnK Longboard Camp remains. It’s a great pleasure to look back to 2009 and see what an iconic event it became over those 9 years and how much impact it made on downhill skateboarders across the globe."
+			"image": "https://images.unsplash.com/photo-1524677722081-b7ff8d6d245e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=2713aa6104eb3ac2f91f2f1055137e7a",
+			"title": "Can You Afford It?",
+			"body": "Electric powerd Longboards are the new style"
 		},
 		{
 			"id": "3",
-			"image": "https://images.unsplash.com/photo-1450644995374-1721affb8ecd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=eeee00ff4cc9ddfd4ebb8ecca6d3d266",
-			"title": "Top 12 Longboard Brands",
-			"body": "At the press meet held yesterday, Laderaskateboards.com had announced that they have now included the list of top 12 longboard brands for this year 2018, much to the delight of longboarding lovers to make a well informed buying decision."
+			"image": "https://images.unsplash.com/photo-1525968156162-4dfab1284d03?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=df035cf6965d8eec95aaed4c74c901c0",
+			"title": "Adventrue Awaits",
+			"body": "How far are you willing to go?"
+		},
+		{
+			"id": "4",
+			"image": "https://images.unsplash.com/uploads/1412273646059cc129bb5/eae0a1da?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=1fa50b368905336c409be8a5324fb54b",
+			"title": "Friends",
+			"body": "A group skate session is always better than riding alone"
+		},
+		{
+			"id": "5",
+			"image": "https://images.unsplash.com/photo-1498877955811-de18e65e4151?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=52310e70ecd04d6db802c0fbdf04960b",
+			"title": "Freedom",
+			"body": "Expressing yourself by skating is a liberating feeling"
 		}
 	]
 } 
