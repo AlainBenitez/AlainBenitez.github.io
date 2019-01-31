@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link rel="stylesheet" href="css/main.css">
+  <title>Secret Gifts</title>
+</head>
+<body>
+
+    <header class='headerBorder bottomMargin'>      
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <h1 class="navbar-brand"><a href="index.html"><img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/></a></h1>
+      
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+          </header>
+
+    <div class="container d-flex justify-content-center">
+        <div class="giftSize" id='planningGift'>
+            <form>
+                <h1 class="boxIt d-flex justify-content-center">Lets get this party planned out</h1>
+                <div class="form-group form-inline">
+                    <div class="mx-2">
+                        <label class="form-control-label boxIt" for="eventName">Event Name</label>
+                        <input class="form-control" type="text" id="eventName"/> 
+                    </div>
+                    <div class="mx-2">
+                        <label class="form-control-label boxIt" for="eventDate">Event Date</label>
+                        <input class="form-control" type="text" id="eventDate"/>
+                    </div>
+                    <div class="mx-2">
+                        <label class="form-control-label boxIt" for="eventTime">Event Time</label>
+                        <input class="form-control" type="text" id="eventTime"/>
+                    </div>
+                </div>
+                <div class="form-group form-inline d-flex justify-content-center">
+                    <div class="mx-2">
+                        <label class="form-control-label boxIt" for="eventPriceRange">Price Range</label>
+                        <input class="form-control" type="text" id="eventPriceRange"/>
+                    </div>
+                
+                    <div class="mx-2">
+                        <label class="form-control-label boxIt" for="numGuest">Number of Guests</label>
+                        <input class="form-control" type="text" id="numGuest"/>
+                    </div>
+                
+                    <div class="mx-2">
+                        <label class="form-check-label boxIt"  for="includeSelf">
+                            <input class='form-check-input' type="checkbox" id="includeSelf"/>Are you Included
+                        </label>
+                    </div>
+                </div>
+
+                <h2 class="boxIt d-flex justify-content-center">Guest Contact Info</h2>
+                <div class="form-group form-inline d-flex justify-content-center">
+                    <div class='mx-2'>
+                        <label class='form-control-label' for="guestName1">Name</label>
+                        <input class='form-control' type="text" id="guestName1"/>
+                    </div>
+                    <div class='mx-2'>   
+                        <label class='form-control-label' for="guestNumEmail1">Contact Number or Email</label>
+                        <input class='form-control' type="text" id="guestNumEmail1"/>
+                    </div> 
+                </div>
+                <div class="form-group form-inline d-flex justify-content-center">
+                    <div class="mx-2">
+                        <label class='form-control-label' for="guestName2">Name</label>
+                        <input class='form-control' type="text" id="guestName2"/>
+                    </div>
+                    <div class="mx-2">
+                        <label class='form-control-label' for="guestNumEmail2">Contact Number or Email</label>
+                        <input class='form-control' type="text" id="guestNumEmail2"/>
+                    </div>
+                </div>
+                <div class='d-flex justify-content-end'>
+                    <button class="btn btn-primary btnBorder">Done</button>
+                </div>
+            </form>
+        </div><!--Bkgd Img Container-->
+    </div><!--Container Div-->
+
+<!-- <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script> -->
+<script src="js/main.js"></script>
+</body>
+</html>
+
+<!-- 
+    Background Pattern
+    style='background: url(images/christmas-colour.png); background-size: 50px; margin-bottom: 20px;' 
+-->
