@@ -17,54 +17,64 @@
 </head>
 <body>
 
-  <header class='headerBorder'>      
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <h1 class="navbar-brand"><a href="index.html"><img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/></a></h1>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="profile.html">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="events.html">Events</a>
-              </li>
-            </ul>
+    <header class='headerBorder'>      
+        <nav class="navbar navbar-expand-sm navbar-light bg-light d-flex justify-content-between">
+          <div class='navbar-brand'>
+            <h1>
+              <a class='nav-link headerH1' href="index.html">
+                <img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/>
+                Secret Gifts
+              </a>
+            </h1>
+            
+          </div>
+          <div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="events.html">Events</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
-    </header>
+      </header>
 
-  <div class="container">
+  <div class="container d-flex justify-content-center">
+    <div class="container giftSize whitebkgd px-4">
     <h1 class='centerIt boxIt'>Which party would you like to look over?</h1>
     <ul class='list-group'>
       <li class="list-group-item btnBorder my-sm-4 my-2 eventGift1 eventWidth">
-        <a href="#" class='nav-link'>
+        <a href="profile.html" class='nav-link'>
           <h2 class='eventDate boxIt'>12/15/2019</h2>
           <h3 class="eventName boxIt">The Familia</h3>
         </a>
       </li>
       <li class="list-group-item btnBorder my-sm-3 my-2 eventGift2 eventWidth">
-        <a href="#" class='nav-link'>
-          <h2 class='eventDate boxIt'>12/15/2019</h2>
+        <a href="profile.html" class='nav-link'>
+          <h2 class='eventDate boxIt'>12/19/2019</h2>
           <h3 class="eventName boxIt">Is This Work</h3>
         </a>
       </li>
       <li class="list-group-item btnBorder my-sm-4 my-2 eventGift1 eventWidth">
-        <a href="#" class='nav-link'>
-          <h2 class='eventDate boxIt'>12/15/2019</h2>
+        <a href="profile.html" class='nav-link'>
+          <h2 class='eventDate boxIt'>12/22/2019</h2>
           <h3 class="eventName boxIt">Party Till We Drop</h3>
         </a>
       </li>
     </ul>
+  </div><!--Bkgd img Div-->
   </div><!--Container Div-->
 
-    <!-- <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.js"></script> -->
+  <footer class='fixed-bottom d-flex justify-content-center bg-light footerBorder'><p>&copy; SecretGifts.com Inc.</p></footer>
+
     <script src="js/main.js"></script>
 </body>
 </html>

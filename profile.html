@@ -17,30 +17,45 @@
 </head>
 <body>
 
-  <header class='headerBorder bottomMargin'>      
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <h1 class="navbar-brand"><a href="index.html"><img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/></a></h1>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="profile.html">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="events.html">Events</a>
-              </li>
-            </ul>
+    <header class='headerBorder'>      
+        <nav class="navbar navbar-expand-sm navbar-light bg-light d-flex justify-content-between">
+          <div class='navbar-brand'>
+            <h1>
+              <a class='nav-link headerH1' href="index.html">
+                <img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/>
+                Secret Gifts
+              </a>
+            </h1>
+            
+          </div>
+          <div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="events.html">Events</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
-    </header>
+      </header>
 
   <div class="container d-flex justify-content-center">
-    <div class='giftSize' id='profileGift'>
-      <h1 class='boxIt centerIt'>List your interest/hobbies/things you like, to help your santa pick a gift</h1>
+    <div class='container giftSize whitebkgd px-4'>
+      <h1 class='boxIt centerIt bottomMargin'>List your interest/hobbies/things you like, to help your santa pick a gift</h1>
+      <div class="container btnBorder bottomMargin bg-green py-2">
+        <h2 class='whiteText'>Chris</h2>
+        <p>Soccer – Favorite team is Barcelona. I love the DC universe – Flash, Arrow, Superman, Batman, etc. 
+          I’m a sucker for bobble heads ;) Pokemon was my favorite show growing up. Hanging out by the pool. Play a 
+          lot of games on my phone.</p>
+      </div>
       <form>
         <div class='form-group mx-2'>
           <label class="form-control-label boxIt">Interest</label>
@@ -51,18 +66,19 @@
           <input class="form-control my-2" type="text" />
           <input class="form-control my-2" type="text" />
         </div>
-        <div class="d-flex mx-2 justify-content-between">
+        <div class="d-flex mx-2 justify-content-between bottomMargin">
           <button class='btn btn-primary btnBorder'>Add More</button>
           <button class='btn btn-success btnBorder'>Done</button>
         </div>
       </form>
+      <div class="imgWidths profileGift">
+          <img class="profileGift" src="images/GiftYellowRed.svg" alt="Gift Box Picture"/>
+      </div>
     </div><!--BkGd Img Div-->
   </div><!--Container Div-->
 
+  <footer class='fixed-bottom d-flex justify-content-center bg-light footerBorder'><p>&copy; SecretGifts.com Inc.</p></footer>
 
-    <!-- <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.js"></script> -->
     <script src="js/main.js"></script>
 </body>
 </html>

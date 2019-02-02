@@ -1,0 +1,35 @@
+{
+	"person": [
+		{
+            "id": 0,
+            "name": "Chris",
+			"interest": "Soccer – Favorite team is Barcelona. I love the DC universe – Flash, Arrow, Superman, Batman, etc. I’m a sucker for bobble heads ;) Pokemon was my favorite show growing up. Hanging out by the pool. Play a lot of games on my phone.",
+			"websites": "HotTopic.com / finishline.com"
+		},
+		{
+            "id": 0,
+            "name": "Miguel",
+			"interest": "I’m a car guy, all things tuner. I like to play Basket Ball, Wade-county, Miami Heat. I like horror movies. My dog Sparks has my heart. ",
+			"websites": "dipyourcar.com / boombah.com / amazon.com"
+		},
+		{
+            "id": 1,
+            "name": "Justin",
+			"interest": "Band nerd here. I love to longboard and I have a large collection of different boards. Swerve Swag is my crews name. I love all things Nintendo, pokemon, Kirby, Zelda are a few of my favorite games.",
+			"websites": "daddiesboardshop.com / billabong.com / kingzanime.com"
+		},
+		{
+            "id": 2,
+            "name": "Valerie",
+			"interest": "Supernatural is my favorite show right now. I love Disney and my favorite character is Ariel from The Little Mermaid. I like to play my flute from time to time, and my favorite band is Panic at the Disco.",
+			"websites": "hottopic.com / wbshop.com"
+		},
+        {
+            "id": 3,
+            "name": "Kendra",
+			"interest": "I’m a gym junky, I love to work out. Lets go to the beach and get sun burnt! I love to do makeup. I like to go out and party. EDM music is awesome and Martin Garrix is my favorite.",
+			"websites": "adonixfitness.com / ulta.com"
+        }
+    ]
+	
+}

@@ -1,14 +1,17 @@
 .logoIcon {
   height: 50px; }
 
-.headerBorder {
-  border-bottom: 1px solid black; }
+.footerBorder {
+  padding-top: 10px;
+  border-top: 1px solid black; }
 
 h1, h2, h3, h4 {
   font-family: 'Mountains of Christmas', cursive;
   font-weight: bold;
-  color: white;
-  text-shadow: -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+  color: black; }
+
+h2 {
+  font-size: 1.6rem; }
 
 body {
   font-family: 'Arial';
@@ -16,17 +19,23 @@ body {
   background-size: 250px;
   margin-bottom: 20px; }
 
+.whitebkgd {
+  background: #f8f9fa;
+  padding-bottom: 150px; }
+
 .homeGift {
   background-image: url("../images/Gift2Boxs.svg");
-  background-size: contain; }
+  background-size: contain;
+  width: 150px; }
 
-#planningGift {
+.planningGift {
   background-image: url("../images/GiftPinkWhite.svg");
   background-size: contain; }
 
-#profileGift {
+.profileGift {
   background-image: url("../images/GiftYellowRed.svg");
-  background-size: contain; }
+  background-size: contain;
+  width: 150px; }
 
 .eventGift1 {
   background-image: url("../images/GiftPinkOrange.svg");
@@ -69,3 +78,41 @@ textarea.form-control {
 
 .joinInputs {
   max-width: 350px; }
+
+.inputWidth {
+  width: 220px; }
+
+.headerH1 {
+  color: black;
+  text-shadow: -1px -1px 0 #fff,   1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; }
+
+.btnHome {
+  width: 150px; }
+
+.imgWidths {
+  width: 750px; }
+
+.error {
+  position: relative;
+  bottom: 33px;
+  left: 40px;
+  color: darkred;
+  border: 1.5px solid darkred;
+  padding: 2px;
+  font-size: 14px;
+  width: 110px; }
+
+.errorM {
+  position: relative;
+  bottom: 33px;
+  color: darkred;
+  border: 1.5px solid darkred;
+  padding: 5px;
+  font-size: 14px; }
+
+.bg-green {
+  background: linear-gradient(to bottom, #006e2e 0%, #79af6d 100%);
+  color: white; }
+
+.whiteText {
+  color: white; }

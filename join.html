@@ -16,38 +16,47 @@
   <title>Secret Gifts</title>
 </head>
 <body>
-    <header class='headerBorder bottomMargin'>      
-            <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <h1 class="navbar-brand"><a href="index.html"><img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/></a></h1>
-      
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="profile.html">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="events.html">Events</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-          </header>
+        <header class='headerBorder'>      
+                <nav class="navbar navbar-expand-sm navbar-light bg-light d-flex justify-content-between">
+                  <div class='navbar-brand'>
+                    <h1>
+                      <a class='nav-link headerH1' href="index.html">
+                        <img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/>
+                        Secret Gifts
+                      </a>
+                    </h1>
+                    
+                  </div>
+                  <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </header>
 
     <div class="container d-flex justify-content-center">
-      <div class="giftSize homeGift">
+      <div class="container giftSize whitebkgd px-4">
         <section>
           <h1 class='centerIt'>Yay, lets join a party!</h1>
           <form>
             <div class="form-group joinInputs">
-                <label class='form-control-label boxIt' for="userName">Name</label>
+                <label class='form-control-label' for="userName">Name</label>
                 <input class='form-control' type="text" id="userName"/>
             </div>
             <div class="form-group joinInputs">
-                <label class='form-control-label boxIt' for="accessCode">Access Code</label>
+                <label class='form-control-label' for="accessCode">Access Code</label>
                 <input class='form-control' type="text" id="accessCode"/>
             </div>  
             <div class="col-5 d-flex justify-content-between bottomMargin">
@@ -58,8 +67,8 @@
           </form>
         </section><!--Join Section-->
         <section class='row'>
-          <h1 class="col d-flex justify-content-center boxIt">What is Secret Santa?</h1>
-          <p class="boxIt">Secret Santa is a fun and easy way for a group of friends, family members or co-workers to exchange gifts. 
+          <h1 class="col d-flex justify-content-center">What is Secret Santa?</h1>
+          <p>Secret Santa is a fun and easy way for a group of friends, family members or co-workers to exchange gifts. 
               A Secret Santa gift exchange can take place at a party or with participants all over the world!
               The basic concept of the Secret Santa game is simple. All of the participants’ names are placed into a hat, 
               box, etc. and mixed up. Each person then chooses one name from the box, but doesn’t tell anyone which name 
@@ -69,12 +78,16 @@
               for opening at a designated time. When the gift-giving time arrives, each recipient finds his/her gift and 
               must guess who their Secret Santa is. If they can’t guess, their Secret Santa eventually confesses.</p>
         </section><!--Description Section-->
+        <div class="imgWidths homeGift">
+                <img class="homeGift" src="images/Gift2Boxs.svg" alt="Gift Box Picture"/>
+            </div>
       </div><!--Bkgd Img Container-->
+
+      <footer class='fixed-bottom d-flex justify-content-center bg-light footerBorder'><p>&copy; SecretGifts.com Inc.</p></footer>
+
     </div><!--Container Div-->
 
-<!-- <script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.js"></script> -->
+
 <script src="js/main.js"></script>
 </body>
 </html>

@@ -17,94 +17,106 @@
 </head>
 <body>
 
-    <header class='headerBorder bottomMargin'>      
-            <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <h1 class="navbar-brand"><a href="index.html"><img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/></a></h1>
-      
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="profile.html">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="events.html">Events</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-          </header>
+        <header class='headerBorder'>      
+                <nav class="navbar navbar-expand-sm navbar-light bg-light d-flex justify-content-between">
+                  <div class='navbar-brand'>
+                    <h1>
+                      <a class='nav-link headerH1' href="index.html">
+                        <img class='logoIcon' src="images/FacelessSanta.svg" alt="Website Logo"/>
+                        Secret Gifts
+                      </a>
+                    </h1>
+                    
+                  </div>
+                  <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </header>
 
     <div class="container d-flex justify-content-center">
-        <div class="giftSize" id='planningGift'>
+        <div class="container giftSize whitebkgd">
             <form>
-                <h1 class="boxIt d-flex justify-content-center">Lets get this party planned out</h1>
-                <div class="form-group form-inline">
+                <h1 class="d-flex justify-content-center bottomMargin">Lets get this party planned out</h1>
+                <div class="form-group form-inline justify-content-center">
                     <div class="mx-2">
-                        <label class="form-control-label boxIt" for="eventName">Event Name</label>
+                        <label class="form-control-label" for="eventName">Event Name</label>
                         <input class="form-control" type="text" id="eventName"/> 
                     </div>
                     <div class="mx-2">
-                        <label class="form-control-label boxIt" for="eventDate">Event Date</label>
-                        <input class="form-control" type="text" id="eventDate"/>
+                        <label class="form-control-label" for="eventDate">Event Date</label>
+                        <input class="inputWidth form-control" type="date" id="eventDate"/>
                     </div>
                     <div class="mx-2">
-                        <label class="form-control-label boxIt" for="eventTime">Event Time</label>
-                        <input class="form-control" type="text" id="eventTime"/>
+                        <label class="form-control-label" for="eventTime">Event Time</label>
+                        <input class="form-control inputWidth" type="time" id="eventTime"/>
                     </div>
                 </div>
-                <div class="form-group form-inline d-flex justify-content-center">
+                <div class="form-group form-inline d-flex justify-content-sm-center bottomMargin">
                     <div class="mx-2">
-                        <label class="form-control-label boxIt" for="eventPriceRange">Price Range</label>
-                        <input class="form-control" type="text" id="eventPriceRange"/>
+                        <label class="form-control-label" for="eventPriceRange">Price Range</label>
+                        <input class="form-control" type="number" id="eventPriceRange"/>
                     </div>
                 
                     <div class="mx-2">
-                        <label class="form-control-label boxIt" for="numGuest">Number of Guests</label>
-                        <input class="form-control" type="text" id="numGuest"/>
+                        <label class="form-control-label" for="numGuest">Number of Guests</label>
+                        <input class="form-control" type="number" id="numGuest"/>
                     </div>
                 
                     <div class="mx-2">
-                        <label class="form-check-label boxIt"  for="includeSelf">
+                        <label class="form-check-label"  for="includeSelf">
                             <input class='form-check-input' type="checkbox" id="includeSelf"/>Are you Included
                         </label>
                     </div>
                 </div>
 
-                <h2 class="boxIt d-flex justify-content-center">Guest Contact Info</h2>
+                <h2 class=" d-flex justify-content-center bottomMargin">Guest Contact Info</h2>
                 <div class="form-group form-inline d-flex justify-content-center">
                     <div class='mx-2'>
                         <label class='form-control-label' for="guestName1">Name</label>
-                        <input class='form-control' type="text" id="guestName1"/>
+                        <input class='form-control gNames' type="text" id="guestName1"/>
                     </div>
                     <div class='mx-2'>   
                         <label class='form-control-label' for="guestNumEmail1">Contact Number or Email</label>
-                        <input class='form-control' type="text" id="guestNumEmail1"/>
+                        <input class='form-control gNums' type="text" id="guestNumEmail1"/>
                     </div> 
                 </div>
                 <div class="form-group form-inline d-flex justify-content-center">
                     <div class="mx-2">
                         <label class='form-control-label' for="guestName2">Name</label>
-                        <input class='form-control' type="text" id="guestName2"/>
+                        <input class='form-control gNames' type="text" id="guestName2"/>
                     </div>
                     <div class="mx-2">
                         <label class='form-control-label' for="guestNumEmail2">Contact Number or Email</label>
-                        <input class='form-control' type="text" id="guestNumEmail2"/>
+                        <input class='form-control gNums' type="text" id="guestNumEmail2"/>
                     </div>
                 </div>
-                <div class='d-flex justify-content-end'>
-                    <button class="btn btn-primary btnBorder">Done</button>
+                <div class='d-flex justify-content-end bottomMargin'>
+                    <button class="btn btn-primary btnBorder" id="planningBtn">Done</button>
                 </div>
             </form>
+            <div class="imgWidths planningGift">
+                <img src="images/GiftPinkWhite.svg" alt="Gift Box Picture"/>
+            </div>
         </div><!--Bkgd Img Container-->
     </div><!--Container Div-->
 
-<!-- <script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.js"></script> -->
+    <footer class='fixed-bottom d-flex justify-content-center bg-light footerBorder'><p>&copy; SecretGifts.com Inc.</p></footer>
+
+
 <script src="js/main.js"></script>
 </body>
 </html>
